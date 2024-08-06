@@ -19,7 +19,7 @@ import fifteen from '../../assets/fifteen.jpg'
 import sixteen from '../../assets/sixteen.jpg'
 import seventeen from '../../assets/seventeen.jpg'
 import eighteen from '../../assets/eighteen.jpg'
-import globe from '../../assets/globe.png'
+import globe from '../../assets/maps1.png'
 
 
 const Partners = () => {
