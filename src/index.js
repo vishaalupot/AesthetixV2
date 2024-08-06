@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import AboutUs from './components/AboutUs/About';
 import Partners from './components/Partner/Partners';
 import Footer from './components/Footer/Footers';
 import reportWebVitals from './reportWebVitals';
@@ -10,6 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
+    <AboutUs />
     <Partners />
     <Footer />
   </React.StrictMode>
