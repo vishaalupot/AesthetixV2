@@ -116,10 +116,11 @@ const Partners = () => {
                 <div className='cards-texts'>
                     <div className='cards-heading'>
                     Liberty Mutual
+                    </div>
                     <div className='cards-para'>
                     Denver, CO Liberty Mutual Group is a global insurer and Fortune 100 company, with technological demand of 24/7 operations. Liberty Global constructed a new … Read more
                     </div>
-                    </div>
+                    
 
                 </div>
             </div>

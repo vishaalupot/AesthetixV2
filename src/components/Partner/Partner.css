@@ -3,7 +3,7 @@
 
 
 .heading1{
-
+    padding: 40px 0px;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-size: 30px;
@@ -96,6 +96,13 @@
     background-color: #f8f8f8;
 }
 
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #ccc; /* You can customize the border color here */
+}
+
 .form-group.full-width textarea {
     height: 100px;
 }
@@ -116,6 +123,7 @@
 .submit-btn:hover {
     background-color: #d40000;
     color: white;
+    transition-duration: 0.25s;
 }
 
 .map {
@@ -139,3 +147,4 @@
 .full-width {
     grid-column: span 2;
 }
+
