@@ -19,26 +19,13 @@ import fifteen from '../../assets/fifteen.jpg'
 import sixteen from '../../assets/sixteen.jpg'
 import seventeen from '../../assets/seventeen.jpg'
 import eighteen from '../../assets/eighteen.jpg'
-import p1 from '../../assets/p1.png'
-import p2 from '../../assets/p2.jpg'
-import p3 from '../../assets/p3.jpg'
-import p4 from '../../assets/p4.jpg'
-import p5 from '../../assets/p5.jpeg'
-import p6 from '../../assets/p6.jpeg'
-import p7 from '../../assets/p7.jpeg'
-import p8 from '../../assets/p8.jpg'
-import p9 from '../../assets/p9.jpg'
-import p10 from '../../assets/p10.jpg'
-import p11 from '../../assets/p11.png'
-import p12 from '../../assets/p12.jpg'
-import p13 from '../../assets/p13.jpg'
-import p14 from '../../assets/p14.jpg'
-import p15 from '../../assets/p15.jpg'
-import p16 from '../../assets/p16.jpg'
+import globe from '../../assets/globe.png'
+
+
 const Partners = () => {
     return (
         <div className='flex justify-center equal-padding'>
-         <div className='heading1'>Trusted by</div>
+         {/* <div className='heading1'>Trusted by</div>
          <div>
             <img src={AT} className='partnerImages'/>
             <img src={AT} className='partnerImages'/>
@@ -46,7 +33,7 @@ const Partners = () => {
             <img src={AT} className='partnerImages'/>
             <img src={AT} className='partnerImages'/>
             <img src={AT} className='partnerImages'/>
-         </div>
+         </div> */}
         
 
          <div className='heading1'>Our Recent Works</div>
@@ -195,8 +182,9 @@ const Partners = () => {
             <div className='cards-texts'>
                 <div className='cards-heading'>
                 Innovation in Medical Simulation
+                </div>
                 <div className='cards-para'>
-                Imagine practicing a complex surgical procedure on a high-fidelity mannequin before ever setting foot in a real operating room. Or navigating a critical care … Read more                </div>
+                Imagine practicing a complex surgical procedure on a high-fidelity mannequin before ever setting foot in a real operating room. Or navigating a critical care … Read more           
                 </div>
 
             </div>
@@ -206,8 +194,9 @@ const Partners = () => {
             <div className='cards-texts'>
                 <div className='cards-heading'>
                 Microsoft Teams Rooms: Connect Across the Hybrid Workplace
+                </div>
                 <div className='cards-para'>
-                A Microsoft Teams Rooms solution seamlessly integrated into the conference room ensures that all participants are visible, audible, and actively engaged from any location. … Read more                </div>
+                A Microsoft Teams Rooms solution seamlessly integrated into the conference room ensures that all participants are visible, audible, and actively engaged from any location. … Read more               
                 </div>
 
             </div>
@@ -217,8 +206,9 @@ const Partners = () => {
             <div className='cards-texts'>
                 <div className='cards-heading'>
                 Crestron AirMedia
+                </div>
                 <div className='cards-para'>
-                Simplify Today. Amplify Tomorrow. Crestron AirMedia® technology is made for growing companies, providing a fast and simple wireless meeting solution from the start, while … Read more                </div>
+                Simplify Today. Amplify Tomorrow. Crestron AirMedia® technology is made for growing companies, providing a fast and simple wireless meeting solution from the start, while … Read more                
                 </div>
 
             </div>
@@ -228,8 +218,9 @@ const Partners = () => {
             <div className='cards-texts'>
                 <div className='cards-heading'>
                 Crestron Flex Room Solutions
+                </div>
                 <div className='cards-para'>
-                Crestron Flex Room Solutions are powerful meeting room solutions that empower hybrid teams. Whatever the size of the organization, Crestron offers a solution that … Read more                </div>
+                Crestron Flex Room Solutions are powerful meeting room solutions that empower hybrid teams. Whatever the size of the organization, Crestron offers a solution that … Read more              
                 </div>
 
             </div>
@@ -239,8 +230,9 @@ const Partners = () => {
             <div className='cards-texts'>
                 <div className='cards-heading'>
                 Microsoft Copilot
+                </div>
                 <div className='cards-para'>
-                Unlocking the Power of Productivity: Microsoft Copilot for Your Organization  The corporate landscape is changing. Workplaces demand agility, efficiency, and innovation more than ever. … Read more                </div>
+                Unlocking the Power of Productivity: Microsoft Copilot for Your Organization  The corporate landscape is changing. Workplaces demand agility, efficiency, and innovation more than ever. … Read more            
                 </div>
                 </div>
         </div>
@@ -249,8 +241,9 @@ const Partners = () => {
             <div className='cards-texts'>
                 <div className='cards-heading'>
                 Technology Solutions for Government
+                </div>
                 <div className='cards-para'>
-                Government meeting rooms across the U.S. continually seek ways to improve their collaboration experience and provide better access for their residents, staff, and council … Read more                </div>
+                Government meeting rooms across the U.S. continually seek ways to improve their collaboration experience and provide better access for their residents, staff, and council … Read more               
                 </div>
 
             </div>
@@ -260,31 +253,53 @@ const Partners = () => {
             <div className='cards-texts'>
                 <div className='cards-heading'>
                 The Modern Workplace
+                </div>
                 <div className='cards-para'>
-                Not long ago, meetings took place with everyone in the same room. However, technology has enabled the evolution of how people meet and work, … Read more                </div>
+                Not long ago, meetings took place with everyone in the same room. However, technology has enabled the evolution of how people meet and work, … Read more              
                 </div>
 
             </div>
         </div>
         </div>
 
-        <div className='heading1'>Partnerships</div>
+        <div className='heading1'>Contact Us</div>
 
-        <div className='partnerImagesContainer'>
-            <img src={p1} className='partnerImages' />
-            <img src={p2} className='partnerImages' />
-            <img src={p3} className='partnerImages' />
-            <img src={p4} className='partnerImages' />
-            <img src={p5} className='partnerImages' />
-            <img src={p6} className='partnerImages' />
-            <img src={p7} className='partnerImages' />
-            <img src={p8} className='partnerImages' />
-            <img src={p9} className='partnerImages' />
-            <img src={p10} className='partnerImages' />
-            <img src={p11} className='partnerImages' />
-            <img src={p12} className='partnerImages' />
-
+        <div class="container">
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name*</label>
+                <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+                <label for="organization">Organization*</label>
+                <input type="text" id="organization" name="organization" required />
+            </div>
+            <div class="form-group">
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone*</label>
+                <input type="tel" id="phone" name="phone" required />
+            </div>
+            <div class="form-group">
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" />
+            </div>
+            <div class="form-group">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" />
+            </div>
+            <div class="form-group full-width">
+                <label for="message">How may we help you?*</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+        <div class="map">
+            <img src={globe} alt="Map with locations" />
         </div>
+    </div>
             
         </div>
     )
