@@ -6,11 +6,15 @@ import AboutUs from './components/AboutUs/About';
 import Partners from './components/Partner/Partners';
 import Footer from './components/Footer/Footers';
 import reportWebVitals from './reportWebVitals';
+import LandingPage from './components/LandingPage/LandingPage';
+import NavBar from './components/NavBar/NavBar';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
+    <LandingPage />
     <AboutUs />
     <Partners />
     <Footer />
