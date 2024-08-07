@@ -1,6 +1,13 @@
 import React from 'react'
 import './Partner.css';
-import AT from '../../assets/AT&T.svg'
+import p1 from '../../assets/p1.png'
+import p2 from '../../assets/p2.jpg'
+import p3 from '../../assets/p3.png'
+import p4 from '../../assets/p4.png'
+import p5 from '../../assets/p5.png'
+import p6 from '../../assets/p6.png'
+import p7 from '../../assets/p7.png'
+import p8 from '../../assets/p8.png'
 import first from '../../assets/first.jpg'
 import second from '../../assets/second.jpg'
 import third from '../../assets/third.jpg'
@@ -25,15 +32,17 @@ import globe from '../../assets/maps1.png'
 const Partners = () => {
     return (
         <div className='flex justify-center equal-padding'>
-         {/* <div className='heading1'>Trusted by</div>
+         <div className='heading1'>Trusted by</div>
          <div>
-            <img src={AT} className='partnerImages'/>
-            <img src={AT} className='partnerImages'/>
-            <img src={AT} className='partnerImages'/>
-            <img src={AT} className='partnerImages'/>
-            <img src={AT} className='partnerImages'/>
-            <img src={AT} className='partnerImages'/>
-         </div> */}
+         <img src={p1} className='partnerImages' style={{height: '50px'}} alt="Partner" />
+         <img src={p2} className='partnerImages'/>
+            <img src={p3} className='partnerImages'/>
+            <img src={p4} className='partnerImages'/>
+            <img src={p5} className='partnerImages'/>
+            <img src={p6} className='partnerImages'/>
+            <img src={p7} className='partnerImages'/>
+            <img src={p8} className='partnerImages'/>
+         </div>
         
 
          <div className='heading1'>Our Recent Works</div>
@@ -262,6 +271,27 @@ const Partners = () => {
             </div>
         </div>
         </div>
+
+        <div className='heading1'>Partnerships</div>
+        <div className='partnerGrid'>
+        <img src={p1} className='partner2Images' alt="Partner" />
+        <img src={p2} className='partner2Images'/>
+        <img src={p3} className='partner2Images'/>
+        <img src={p4} className='partner2Images'/>
+        <img src={p7} className='partner2Images'/>
+        <img src={p8} className='partner2Images'/>
+        {/* Repeat or add more images to make a total of 64 */}
+        <img src={p2} className='partner2Images' />
+        <img src={p3} className='partner2Images' />
+        
+        <img src={p7} className='partner2Images' />
+        <img src={p5} className='partner2Images' />
+        <img src={p6} className='partner2Images' />
+        <img src={p8} className='partner2Images' />
+        {/* Add more repetitions until you reach 64 images */}
+        </div>
+
+
 
         <div className='heading1'>Contact Us</div>
 

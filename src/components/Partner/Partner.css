@@ -19,6 +19,10 @@
     padding: 20px;
 }
 
+.partner2Images{
+    height: 70px;
+    padding: 20px;
+}
 .cards-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -149,3 +153,15 @@
     grid-column: span 2;
 }
 
+.partnerGrid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 8 columns */
+    grid-template-rows: repeat(2, 1fr); /* 8 rows, adjust if necessary */
+    gap: 10px; /* Adjust spacing between images */
+  }
+  
+  .partner2Images {
+    width: 60%; /* Make images responsive */
+    height: 80px;
+  }
+  
