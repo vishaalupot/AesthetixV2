@@ -1,4 +1,7 @@
 import './About.css';
+import every from '../../assets/every.mp4';
+import First from '../../assets/FIRST.mp4';
+import Second from '../../assets/SECOND.mp4';
 
 const About = () => {
   return (
@@ -14,7 +17,10 @@ const About = () => {
         <button type="submit" class="learn-btn">Learn More</button>
       </div>
       <div className='AbtusImage'>
-
+      <video width="90%" height="auto" controls>
+        <source src={every} type="video/mp4" />
+        Your browser does not support the video tag.
+        </video>
       </div>
       </div>
       <div className='ConfImage'>
@@ -35,7 +41,10 @@ const About = () => {
         
         <div className='Card1'>
           <div className='mainVideo'>
-
+          <video width="100%" height="400px" controls>
+        <source src={First} type="video/mp4" />
+        Your browser does not support the video tag.
+        </video>
           </div>
           <div className='mainText'>
             <div className='videoHeading'>
@@ -50,7 +59,10 @@ const About = () => {
         </div>
         <div className='Card1'>
           <div className='mainVideo'>
-
+          <video width="100%" height="400px" controls>
+        <source src={Second} type="video/mp4" />
+        Your browser does not support the video tag.
+        </video>
           </div>
           <div className='mainText'>
             <div className='videoHeading'>

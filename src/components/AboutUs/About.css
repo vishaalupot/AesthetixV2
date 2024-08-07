@@ -38,10 +38,18 @@
 
 .Abtus{
     padding: 50px 0px;
+    display: flex;
+    flex-direction: row;
 }
 
 .AbtusText{
     width: 600px;
+}
+
+.AbtusImage{
+    height: 60%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .ConfImage{
@@ -124,7 +132,7 @@
 }
 
 .mainVideo{
-    height: 300px;
+    height: 400px;
     width: 100%;
 }
 
