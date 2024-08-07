@@ -70,7 +70,7 @@ const Partners = () => {
                     Apple Park
                     </div>
                     <div className='cards-para'>
-                    Apple’s corporate headquarters is a 2.8 million SF complex that hosts nearly 12,000 employees and visitors on a daily basis. Ford provided AV solutions … Read more
+                    Apple’s corporate headquarters is a 2.8 million SF complex that hosts nearly 12,000 employees and visitors on a daily basis. Aesthetix provided AV solutions … Read more
                     </div>
 
                 </div>
@@ -170,10 +170,10 @@ const Partners = () => {
             <img src={eleven} className='card-image'/>
             <div className='cards-texts'>
                 <div className='cards-heading'>
-                Experience Extraordinary with Ford AV
+                Experience Extraordinary with Aesthetix AV
                 </div>
                 <div className='cards-para'>
-                At Ford, we are driven by more than just technology. We are a team of extraordinary people who take immense pride in crafting exceptional … Read more
+                At Aesthetix, we are driven by more than just technology. We are a team of extraordinary people who take immense pride in crafting exceptional … Read more
                 </div>
 
             </div>
