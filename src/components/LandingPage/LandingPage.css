@@ -13,7 +13,7 @@
 }
 
 .image{
-    background-image: url('/Users/niranjan/Downloads/aesthetix _gif.gif');
+    /* background-image: url('/Users/niranjan/Downloads/aesthetix _gif.gif'); */
     background-size: cover;
     
 }
@@ -21,8 +21,8 @@
 .background-box {
   margin-left: 10%;
   width: 700px;
-  height: 270px;
-  background-color: #3e3e3e88; /* Tailwind 'bg-red-100' */
+  height: 250px;
+  background-color: #00000061; /* Tailwind 'bg-red-100' */
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -142,4 +142,38 @@
     background-color: #d40000;
     color: white;
     transition-duration: 0.25s;
+}
+
+body{
+  padding: 0px !important;
+}
+
+.video-background {
+  padding: 0px !important;
+  position: relative;
+  width: 100vw;
+  height: 92vh;
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.container-land {
+  position: relative;
+  z-index: 1;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }

@@ -17,7 +17,7 @@ const About = () => {
         <button type="submit" class="learn-btn">Learn More</button>
       </div>
       <div className='AbtusImage'>
-      <video width="90%" height="auto" controls>
+      <video width="90%" height="auto" controls autoPlay muted>
         <source src={every} type="video/mp4" />
         Your browser does not support the video tag.
         </video>
@@ -41,7 +41,7 @@ const About = () => {
         
         <div className='Card1'>
           <div className='mainVideo'>
-          <video width="100%" height="400px" controls>
+          <video width="100%" height="400px" controls autoPlay muted>
         <source src={First} type="video/mp4" />
         Your browser does not support the video tag.
         </video>
@@ -59,7 +59,7 @@ const About = () => {
         </div>
         <div className='Card1'>
           <div className='mainVideo'>
-          <video width="100%" height="400px" controls>
+          <video width="100%" height="400px" controls autoPlay muted>
         <source src={Second} type="video/mp4" />
         Your browser does not support the video tag.
         </video>

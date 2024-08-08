@@ -1,13 +1,17 @@
-.cunt{
+.mainNav{
     display: flex;
     align-items: center;
     height: 70px;
     color: rgb(255, 255, 255);
     font-weight: 700;
     background-color: rgba(0, 0, 0, 0.37);
-    margin-left: 10px;
-    margin-right: 10px;
+    margin:25px;
 
+}
+
+.logo{
+    height: 50px;
+    width: 100%;
 }
 
 .block_1{
@@ -16,9 +20,12 @@
 .block_2{
     display: flex;
     margin-left: auto;
-
+    padding: 50px;
+    
 }
 
 .butt{
-    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+    padding: 0px 20px;
+    font-weight: 400;
 }

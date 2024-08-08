@@ -1,11 +1,13 @@
 import React from 'react'
 import './NavBar.css'
+import logo from '../../assets/logo.png'
+import search from '../../assets/search.png'
 
 const NavBar = () => {
     return (
-        <div className='cunt'>
+        <div className='mainNav'>
             <div className='block_1'>
-                logo_replace
+               <img src ={logo} className='logo'/>
             </div>
             <div className='block_2'>
                 <div className='butt'>Solutions</div>
@@ -15,7 +17,9 @@ const NavBar = () => {
                 <div className='butt'>Login</div>
                 <div className='butt'>Support</div>
                 <div className='butt'>Contact</div>
-                <div className='butt'>search_icon_replace</div>
+                <div className='butt'>
+                <img src ={search} style={{height: '17px', width: '100%' }} />
+                </div>
 
             </div>
         </div>
