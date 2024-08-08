@@ -8,6 +8,7 @@
 }
 
 .text-container {
+  top: 10%;
   position: relative;
   margin-right: 3rem; /* equivalent to 'mr-12' */
 }
@@ -154,6 +155,9 @@ body{
   width: 100vw;
   height: 92vh;
   overflow: hidden;
+  background-image: url('../../assets/room.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .background-video {
