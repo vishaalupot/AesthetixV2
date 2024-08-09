@@ -179,7 +179,7 @@ const Partners = () => {
             <img src={eleven} className='card-image'/>
             <div className='cards-texts'>
                 <div className='cards-heading'>
-                Experience Extraordinary with Aesthetix AV
+                Experience Extraordinary with Aesthetix
                 </div>
                 <div className='cards-para'>
                 At Aesthetix, we are driven by more than just technology. We are a team of extraordinary people who take immense pride in crafting exceptional … Read more

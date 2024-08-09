@@ -12,7 +12,7 @@ const About = () => {
             About Us
         </div>
         <div className='AboutText'> 
-        Aesthetix AV is America’s leading audiovisual solutions integrator.  With over 50 years of experience, we are the complete technology provider for the nation’s top enterprise brands for design, installation, and service of professional sound systems, AV systems, video conferencing systems, networks, and security surveillance systems.
+        Aesthetix is America’s leading audiovisual solutions integrator.  With over 50 years of experience, we are the complete technology provider for the nation’s top enterprise brands for design, installation, and service of professional sound systems, AV systems, video conferencing systems, networks, and security surveillance systems.
         </div>
         <button type="submit" class="learn-btn">Learn More</button>
       </div>
@@ -39,7 +39,7 @@ const About = () => {
           Solutions for Modern Collaboration
           </div>
           <div className='confPara'>
-          Today’s modern workplace runs on Microsoft Teams, Zoom, Cisco Webex, and Google Meet. Join online meetings from the conference room with one touch! Aesthetix AV is a trusted partner of leading software and hardware solutions for the meeting room.
+          Today’s modern workplace runs on Microsoft Teams, Zoom, Cisco Webex, and Google Meet. Join online meetings from the conference room with one touch! Aesthetix is a trusted partner of leading software and hardware solutions for the meeting room.
           </div>
           <button type="submit" class="talk-btn">Talk To An Expert</button>
         </div>
