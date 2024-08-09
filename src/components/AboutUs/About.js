@@ -17,10 +17,19 @@ const About = () => {
         <button type="submit" class="learn-btn">Learn More</button>
       </div>
       <div className='AbtusImage'>
-      <video width="90%" height="auto" controls autoPlay muted>
+      {/* <video width="90%" height="auto" controls autoPlay muted>
         <source src={every} type="video/mp4" />
         Your browser does not support the video tag.
-        </video>
+        </video> */}
+         <iframe
+        width="750"
+        height="415"
+        src="https://www.youtube.com/embed/Jp5VIOMmTuU"
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
       </div>
       </div>
       <div className='ConfImage'>
@@ -41,17 +50,26 @@ const About = () => {
         
         <div className='Card1'>
           <div className='mainVideo'>
-          <video width="100%" height="400px" controls autoPlay muted>
+          {/* <video width="100%" height="400px" controls autoPlay muted>
         <source src={First} type="video/mp4" />
         Your browser does not support the video tag.
-        </video>
+        </video> */}
+        <iframe
+        width="660"
+        height="415"
+        src="https://www.youtube.com/embed/UytHN0NmSmw"
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
           </div>
           <div className='mainText'>
             <div className='videoHeading'>
-            FAM | First Americans Museum
+            ISE 2024 | Integrated systems Europe 
             </div>
             <div className='videoText'>
-            Court Myers, of Waystone LLC, shares how he worked with Aesthetix AV to accomplish AV challenges for the First Americans Museum (FAM) which features Native American stories told from their own perspective.
+            Reflecting on an incredible week at ISE 2024! Our team had a great time participating in one of the most dynamic and innovative events in the industry. 
             </div>
             <button type="submit" class="learn-btn">Learn More</button>
           </div>
@@ -59,18 +77,28 @@ const About = () => {
         </div>
         <div className='Card1'>
           <div className='mainVideo'>
-          <video width="100%" height="400px" controls autoPlay muted>
+          {/* <video width="100%" height="400px" controls autoPlay muted>
         <source src={Second} type="video/mp4" />
         Your browser does not support the video tag.
-        </video>
+        </video> */}
+        <iframe
+        width="660"
+        height="415"
+        src="https://www.youtube.com/embed/rVz1XkXo0eE"
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
           </div>
           <div className='mainText'>
             <div className='videoHeading'>
-            Indeed
+            Enhancing connectivity and collaboration
             </div>
             <div className='videoText'>
-            With over 13,000 global employees working in over forty-five countries, Indeed uses extensive AV technology to facilitate the workplace community.
-            </div>
+            Boardrooms with AI Auto Tracking Camera, Meeting Rooms/ Huddle Spaces,Town Hall with Fine Pixel Pitch Curved LED
+            ,Training Hall with HyFlex Facility
+,Smart Desk Management for Workspace          </div>
             <button type="submit" class="learn-btn">Learn More</button>
           </div>
           

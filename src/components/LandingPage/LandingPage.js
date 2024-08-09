@@ -37,14 +37,17 @@ import React from 'react'
 import './LandingPage.css'
 import NavBar from '../NavBar/NavBar'
 import Aes from '../../assets/aes.mp4'
+import Room from '../../assets/room.jpg'
 
 const LandingPage = () => {
     return (
         <div className='video-background'>
-            <video autoPlay loop muted className='background-video'>
+            {/* <video autoPlay loop muted className='background-video'>
                 <source src={Aes} type='video/mp4' />
                 Your browser does not support the video tag.
-            </video>
+            </video> */}
+
+            {/* <img src={Room} /> */}
             <NavBar />
 
             <div className="container-land">
