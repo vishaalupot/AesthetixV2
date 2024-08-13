@@ -11,6 +11,8 @@
 .logo{
     height: 50px;
     width: 100%;
+    position: relative;
+    left: 80px;
 }
 
 .block_1{

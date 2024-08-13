@@ -165,3 +165,27 @@
     height: 80px;
   }
   
+  .partners-container {
+    overflow: hidden; /* Hide the overflow to ensure seamless looping */
+  }
+  
+  .partners-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: scrollLeft 15s linear infinite;
+  }
+  
+  @keyframes scrollLeft {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .partnerImages {
+    margin-right: 10px;
+  }
+  

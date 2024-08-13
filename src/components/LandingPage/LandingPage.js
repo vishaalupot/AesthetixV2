@@ -50,7 +50,7 @@ const LandingPage = () => {
             {/* <img src={Room} /> */}
             <NavBar />
 
-            <div className="container-land">
+            {/* <div className="container-land">
                 <div className="text-container">
                     <div>
                         <div className="background-box"></div>
@@ -67,7 +67,7 @@ const LandingPage = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

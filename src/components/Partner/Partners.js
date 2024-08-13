@@ -32,17 +32,37 @@ import globe from '../../assets/maps1.png'
 const Partners = () => {
     return (
         <div className='flex justify-center equal-padding'>
-         <div className='heading1'>Trusted by</div>
-         <div>
-         <img src={p1} className='partnerImages' style={{height: '50px'}} alt="Partner" />
-         <img src={p2} className='partnerImages'/>
-            <img src={p3} className='partnerImages'/>
-            <img src={p4} className='partnerImages'/>
-            <img src={p5} className='partnerImages'/>
-            <img src={p6} className='partnerImages'/>
-            <img src={p7} className='partnerImages'/>
-            <img src={p8} className='partnerImages'/>
-         </div>
+        <div className='heading1'>Trusted by</div>
+    <div className='partners-container'>
+    <div className='partners-slider'>
+        <img src={p1} className='partnerImages' style={{height: '50px'}} alt="Partner" />
+        <img src={p2} className='partnerImages'/>
+        <img src={p3} className='partnerImages'/>
+        <img src={p4} className='partnerImages'/>
+        <img src={p5} className='partnerImages'/>
+        <img src={p6} className='partnerImages'/>
+        <img src={p7} className='partnerImages'/>
+        <img src={p8} className='partnerImages'/>
+        <img src={p1} className='partnerImages' style={{height: '50px'}} alt="Partner" />
+        <img src={p2} className='partnerImages'/>
+        <img src={p3} className='partnerImages'/>
+        <img src={p4} className='partnerImages'/>
+        <img src={p5} className='partnerImages'/>
+        <img src={p6} className='partnerImages'/>
+        <img src={p7} className='partnerImages'/>
+        <img src={p8} className='partnerImages'/>
+        <img src={p1} className='partnerImages' style={{height: '50px'}} alt="Partner" />
+        <img src={p2} className='partnerImages'/>
+        <img src={p3} className='partnerImages'/>
+        <img src={p4} className='partnerImages'/>
+        <img src={p5} className='partnerImages'/>
+        <img src={p6} className='partnerImages'/>
+        <img src={p7} className='partnerImages'/>
+        <img src={p8} className='partnerImages'/>
+    </div>
+    </div>
+
+
         
 
          <div className='heading1'>Our Recent Works</div>
